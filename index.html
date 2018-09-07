@@ -1,35 +1,27 @@
 <!DOCTYPE html>
 <html lang="en" >
-
 <head>
   <meta charset="UTF-8">
   <title>peswim-content</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  
-      <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 
-  
+  <link href="https://fonts.googleapis.com/css?family=Lora%7cMontserrat%7cPlayfair+Display%7cFondamento%7cPodkova%7cQuintessential" rel="stylesheet">
+  <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst" defer=""></script>
+  <!-- prep for pdf -->
+  <!--script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.4.1/jspdf.debug.js" integrity="sha384-THVO/sM0mFD9h7dfSndI6TS0PgAGavwKvB5hAxRRvc0o9cPLohB0wb/PTA7LdUHs" crossorigin="anonymous"></script-->
+
 </head>
-
 <body>
-
-  <html>
-<head>
-<link href="https://fonts.googleapis.com/css?family=Lora%7cMontserrat%7cPlayfair+Display%7cFondamento%7cPodkova%7cQuintessential" rel="stylesheet"> 
-<!--<script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js?skin=sunburst">
-</script>-->
-<script src="https://rawgit.com/google/code-prettify/master/loader/run_prettify.js?autoload=true&amp;skin=sunburst;" defer=""></script>
-</head>
  <div id="bod" class="bod">
    <div class="navtop">
      <div>Howard Dunn - <span style="font-size: .8em">MSc./BSc. Eng.</span></div>
    </div>
    <div class="nav-back">
    <nav id="left">
-     <div id="nla" class="nav-lft" onactive="">. </div>
-     <div id="nlb" class="nav-lft" onactive="">. </div>
-     <div id="nlc" class="nav-lft" onactive="">. </div>
+     <div id="nla" class="nav-lft" onclick="void(0);">Contact</div>
+     <div id="nlb" class="nav-lft" onclick="void(0);">Projects</div>
+     <div id="nlc" class="nav-lft" onclick="void(0);">Resume</div>
      <div id="nld" class="nav-lft">
        <ul class="ul-nav-lft">
          <li>25 yrs Coding</li>
@@ -37,81 +29,117 @@
            font-style:italic">(1998-2003, 2018)</span></li>
          <li>&nbsp;</li>
          <li>Services to: &nbsp;
-           DOD, NASA, DOE & Majors (Boeing, Lockheed-Martin, Parker-Hannafin, AZ Technology, U.S. Rare Earths, Franlin Mining).
+           DOD, NASA, DOE & Majors (Boeing, Lockheed-Martin, Parker-Hannifin, AZ Technology, U.S. Rare Earths, Franklin Mining).
          </li>
-       </ul>             
+       </ul>
      </div>
     </nav>
-  </div>  
- <!--                                                                             -->  
+  </div>
+ <!--                                                                             -->
   <div class="code">
-    <!--div class="verticalLineL"></div>
-    <div class="verticalLineR"></div-->
-    <div class="ul-badge " onclick="">
-       <!--div class="verticalLineL"></div>
-       <div class="verticalLineR"></div-->
+    <div class="ul-badge ">
        <div class="ttl">Services - Portfolio
-       <div><button class="nbtn">night</button></div>
-       </div>  
-       <div class="li">Data/Analytics/Learning</div>
-       <div class="f0btn">
-       <div id="btn0l" class="badge" onclick=""></div>
-       <div id="btn0s" class="badge" onclick=""></div>  
-       </div>  
-       <div class="li">Server/CDN</div>
+       <div><button class="nbtn hided">night</button></div>
+       </div>
+       <div class="li item0">Data/Analytics/Learn</div>
+       <!--div class="f0btn"-->
+       <div id="btn0l" class="badge" onclick="void(0);"></div>
+       <a href="https://github.com/PESwim/ipybuilder" target="_blank"><div id="btn0s" class="badge" ></div></a>
+       <!--/div-->
+       <div class="li item1">Server/CDN</div>
        <div class="f1btn">
-       <div id="btn1l" class="badge" onclick="" ></div>
-       <div id="btn1la" class="badge" onclick=""></div>
-       <div id="btn1s" class="badge" onclick=""></div>
-       </div>  
-       <div class="li">User Interface</div>
+       <div id="btn1l" class="badge" onclick="void(0);"></div>
+       <div id="btn1la" class="badge" onclick="void(0);"></div>
+       <a href="https://www.peswim.com" target="_blank"><div id="btn1s" class="badge"></div></a>
+       </div>
+       <div class="li item2">User Interface</div>
        <div class="f2btn">
-       <div id="btn2l" class="badge" onclick=""></div>
-       <div id="btn2la" class="badge" onclick=""></div>
-       <div id="btn2lb" class="badge" onclick=""></div>
-       <div id="btn2s"class="badge" onclick=""></div>
-       </div>  
-       <div id="certs" class="li">Certs - Content</div>
+       <div id="btn2l" class="badge" onclick="void(0);"></div>
+       <div id="btn2la" class="badge" onclick="void(0);"></div>
+       <div id="btn2lb" class="badge" onclick="void(0);"></div>
+       <a href="https://codepen.io/hdunn/pen/rZyBwp" target="_blank"><div id="btn2s" class="badge"></div></a>
+       </div>
+       <div id="certs" class="li item3">Certificates/Licenses</div>
        <div class="f3btn">
-       <div id="btn3l" class="badge imgA" onclick=""></div>
-       <div id="btn3la" class="badge imgB" ></div>
-       <!--div id="btn3s" class="badge imgC" onclick=""></div-->
-       </div>  
-       <div class="divwrp">
-         <div class="back-color hide">
-         <pre id="fileRequest" class="prettyprint lang-py"></pre>
-         </div>
+         <ul style="list-style:none;">
+           <li title="click to cert"><a href="https://www.freecodecamp.org/certification/hdunn/responsive-web-design" target="_blank">
+           <div id="btn3lb" class="badge imgC" onclick="void(0);"></div></a></li>
+           <li class="txt">responsive web design</li>
+
+           <li title="click to cert"><a  href="https://www.freecodecamp.org/certification/hdunn/javascript-algorithms-and-data-structures" target="_blank">
+           <div id="btn3l" class="badge imgA" onclick="void(0);"></div></a></li>
+           <li class="txt">javascript data</li>
+
+           <li title="click to registration"><a href="https://ipels.idaho.gov/rostersearch.cfm" target="_blank">
+           <div id="btn3la" class="badge imgB" onclick="void(0);"></div></a></li>
+           <li class="txt">professional engineeing license</li>
+        </ul>
        </div>
-       <div class="bns">
-         <div class="cnt1l"> 
-         <!--<pre id="frequest" class="prettyprint lang-python">
-         </pre>-->
-         </div>
+     <div class="divwrp">
+       <div class="back-color hided">
+       <pre id="fileRequest" class="prettyprint"></pre>
        </div>
+     </div>
+    </div>
+    <div id="address" class="addr hided">
+         Howard Dunn</br>
+         6754 Cochrane Dr.</br>
+         Meridian, ID 83642</br>
+         Email - hdunn@peswim.com</br>
+    </div>
+    <div id="resume" class="res hided">
+    </div>
+    <div id="projects" class="prj hided"><br><br>Recent Projects <i>(2016-2018)
+      </i><br><i>(git version control)</i><br>
+      <ul style="list-style:none;">
+      <li>HDunn - CodePen <a href="https://codepen.io/hdunn/full/rZyBwp/">portfolio</a><br>
+        <p>Mostly dynamic content using hot-links to generate badges and
+           prettified content. JavaScript to demand load click-able responsive
+           content. Avoids jQuery/Bootstrap short cuts. No Flex or CssGrid in
+           the HDunn Portfolio Ver. CodePen <a href="https://codepen.io/hdunn/pen/OwwOzd" target="_blank">
+             Ripple</a> is a Modified JS code that uses CDN COR (cross-origin
+             images) converted to not contaminate the canvas. HTML, CSS,
+             CssGrid, JavaScript</p></li>
+      <br>
+      <li>*PESWIM - <a href="https://github.com/DanWBR/dwsim5" target="_blank">
+        DWSIM</a><i>(thermodynamics program with UI).</i><br>
+        <p>Completed debugging and developed user ad-hoc code-base
+          changes. User code install required fixing Microsoft's 2012 IronPython
+          independent python-to-exe compiler code (very difficult
+          <a href="https://peswim.github.io/ipybuilder/" target="_blank">ipybuilder</a>). IronPython
+           and C#.net sub-classing C#, Sphinx Documentation.</p></li>
+      <br>
+      <li>PESWIM - Machine Learning<br><p>Advanced Analysis and trained
+        machine learning of a 1TB 3-d database to filter associative
+        relationships of 10 different properties in a 3-d spacial environment
+        to predict independent variable locations not yet tested. Python and
+        sci-kit learn, cKDTrees, LDA, and Jacob vectors.</p></li>
+      <br>
+      <li>PESWIN - Geophysical gravity modeling
+        <a href="https://www.fatiando.org/" target="_blank">Fatiando</a>
+        <br><p>Exploration sublayer target geology modeling in 3-D using
+          updated world gravity data and estimated earth layer properties.
+          Python.</p></li>
+      <br>
+      <li>HDunn - Completed 1300 hrs of FreeCodeCamp learning<li>
+      <br>
+      <li>PESWIM - Linux-Apache-SQLite-Python<br><p>Virtual Server set-up start to
+        deliver GIS weather related content. Vagrant, VirtualBox, Centos, Django.</p></li>
+      <br>
+      <li style="text-style:italic;font-size:.6em;">*PESWIM - a branding name for
+         H. Dunn services.<li>
+    </ul>
     </div>
   </div>
-  <div id="notouch" class="clearfix"></div>
   <footer>
     <div class="ft">Meridian ID</div>
-    <div class="ft">Contact &nbsp</div>
     <div class="ft contact">
-      <p1>
-        <a class="ea" href="mailto:hdunn.id@gmail.com" target="_blank" onclick="">email</a>
+        <div id="ft-contact" onclick="void(0);"><span style="text-decoration:underline;">contact</span> &nbsp; &nbsp;
+        <a  href="mailto:hdunn.id@gmail.com" target="_blank" onclick="void(0);">email</a>
         &nbsp;&nbsp; or &nbsp; &nbsp;
-        <a class="ea" href="mailto:mailto:hdunn@peswim.com" target="_blank" onclick="" >server</a>  
-       <p1>
+        <a href="mailto:mailto:hdunn@peswim.com" target="_blank" onclick="void(0);" >server</a></div>
     </div>
   </footer>
-</div>
-</html>
-  
-  
-
-    <script  src="js/index.js"></script>
-
-
-
-
+  <script  src="js/index.js"></script>
 </body>
-
 </html>
